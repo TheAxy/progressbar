@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header"></header>
+    <main class="main">
+        <div class="content">
+            <div class="content__row">
+                <div class="content__progress-bar progress-bar">
+
+                    <div class="progress-bar__circle-wrap">
+                        <svg class="progress-bar__svg" width="60" height="60">
+                            <circle class="progress-bar__background" stroke="rgba(255, 255, 255, 0.5)" stroke-width="1" fill="transparent" r="29" cx="30" cy="30" />
+                            <circle class="progress-bar__circle" stroke="white" stroke-width="2" fill="transparent" r="29" cx="30" cy="30" />
+                        </svg>
+                        <div class="progress-bar__text">
+                            <span class="progress-bar__current">0</span>
+                            <span class="progress-bar__slash">/</span>
+                            <span class="progress-bar__total">7</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__text text-content">
+                    <div class="text-content__metka">Чеклист</div>
+                    <h2 class="text-content__title">Выполнено: <span class="text-content__complete">0</span> из <span class="text-content__total">7</span> действий</h2>
+                    <div class="text-content__description">Следующее действие: Созвониться с клиентом до 23.05.24 12:00</div>
+                </div>
+                <div class="content__button">
+                    <button type="submit" class="content__bnt">Открыть чеклист</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer"></footer>
+    
+</body>
+</html>
